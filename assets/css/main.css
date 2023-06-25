@@ -158,6 +158,7 @@ input, select, textarea {
 
 		a:hover {
 			text-decoration: none;
+			animation: gelatine 0.5s infinite;
 		}
 
 	br.clear {
@@ -2114,12 +2115,14 @@ input, select, textarea {
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
 					background: #f3f3f3;
+					
 				}
 
 				#nav > ul > li.current > a {
 					background: #d52349;
 					color: #fff !important;
 					font-weight: 700;
+					
 				}
 
 	.dropotron {
@@ -2908,4 +2911,10 @@ input, select, textarea {
 
 	}
 
-	
+
+	  @keyframes gelatine {
+		from, to { transform: scale(1, 1); }
+		25% { transform: scale(0.9, 1.1); }
+		50% { transform: scale(1.1, 0.9); }
+		75% { transform: scale(0.95, 1.05); }
+	  }
