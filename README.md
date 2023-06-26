@@ -17,3 +17,4 @@ I learned how to clone a repository from github to my local repo.
 I learned how to update my local repo to the remote repo by simply writing pull.  
 I also learned that it better to resize images instead of simply adding the original size to my project. 
 I refreshed my memory on how to link to sections on the page.  
+
